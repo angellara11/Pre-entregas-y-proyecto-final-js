@@ -2,4 +2,4 @@
 
 [PreEntrega1Lara](https://angellara11.github.io/Pre-entregas-y-proyecto-final-js/PreEntrega1Lara)
 
-[PreEntrega2Lara](https://angellara11.github.io/Pre-entregas-y-proyecto-final-js/PreEntrega1Lara)
+[PreEntrega2Lara](https://angellara11.github.io/Pre-entregas-y-proyecto-final-js/PreEntrega2Lara/)
