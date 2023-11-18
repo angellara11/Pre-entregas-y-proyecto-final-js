@@ -49,8 +49,7 @@
 
 // de aqui para arriba a sido la primera entrega y de aqui para abajo estoy poniendo temarios que siguen entrando en la preetrega pero no los necesite usar
 
-// for
-// -----------------------------------------------------------------------------------------
+//                                 FOR
 
 // for (let i = 1; i <= 5; i++) {
 //   if (i === 3) {
@@ -69,8 +68,7 @@
 //   alert(`vamos a contar del 1 al 5 pero el 3 nos lo saltamos: ${i}`);
 // }
 
-// while
-// -----------------------------------------------------------------------------------------
+//                                    WHILE
 
 // let repetir = true;
 
@@ -82,8 +80,7 @@
 //   repetir = confirm("desea seguir?");
 // }
 
-// do while
-// -------------------------------------------------------------------------------------------
+//                                  DO WHILE
 
 // let cuenta = 1;
 
@@ -199,7 +196,7 @@
 //   let vender = true;
 //   do {
 //     let ofertaCliente = parseInt(prompt(`cuanto ofreces por tu nuevo coche`));
-//     if (ofertaCliente <= 1500) {
+//     if (ofertaCliente <= 1499) {
 //       console.log(`${ofertaCliente} es un precio demasiado bajo`);
 //     } else if (ofertaCliente > 1500 && ofertaCliente < precioMinimo) {
 //       console.log(
