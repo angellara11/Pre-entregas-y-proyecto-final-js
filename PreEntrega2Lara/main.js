@@ -33,7 +33,7 @@ for (let i = 0; i < drinks.length; i++) {
 
 payButton.addEventListener("click", function () {
   alert(
-    `La cuenta esta pagada, aqui esta tu recibo\n\nTotal:  ${total}\n\nGracias por su visita, le esperamos de nuevo muy pronto.`
+    `La cuenta esta pagada, aqui esta tu recibo\n\nTotal:  ${total} Golden Coins\n\nGracias por su visita, le esperamos de nuevo muy pronto.`
   );
   total = 0;
   payButton.textContent = `Pay ${total} Golden Coins`;
