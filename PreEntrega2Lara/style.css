@@ -10,6 +10,7 @@ body {
   width: 100%;
   height: 100%;
   font-family: "Pixelify Sans", sans-serif;
+  flex-direction: column;
 }
 
 h1 {
@@ -79,4 +80,12 @@ li {
 .coin-button:active {
   border-bottom: none;
   margin-top: 0.5rem;
+}
+
+#bill {
+  width: 35rem;
+  margin: 0.5rem;
+  font-size: 1.8rem;
+  color: #fff;
+  line-height: 3rem;
 }
