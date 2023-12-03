@@ -1,0 +1,91 @@
+html {
+  height: 100%;
+}
+
+body {
+  background-color: #563933;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  font-family: "Pixelify Sans", sans-serif;
+  flex-direction: column;
+}
+
+h1 {
+  font-size: 2.5rem;
+  color: #fff;
+  line-height: 3.5rem;
+}
+
+.container {
+  width: 35rem;
+  display: flex;
+  flex-direction: column;
+}
+.card {
+  min-height: 15rem;
+  background-color: white;
+  border-radius: 10px;
+  margin-bottom: 1rem;
+  padding: 3rem;
+}
+
+.drink-list {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.drink-list button {
+  padding: 0.4rem 1.2rem;
+  border: solid 0.1rem #222;
+  border-bottom: solid 0.3rem #222;
+  list-style: none;
+  color: #222;
+  border-radius: 4px;
+}
+
+.drink-list button:hover {
+  cursor: pointer;
+}
+
+.drink-list button:active {
+  border-bottom: solid 0.1rem #222;
+  border-top: solid 0.2rem #222;
+}
+
+/* .drink-list .active {
+    background-color: black;
+    color: #fff;
+  } */
+
+li {
+  padding: 0.3rem;
+}
+
+.coin-button {
+  background-color: #ecdb47;
+  padding: 0.7rem 1rem;
+  border-radius: 10px;
+  border-bottom: solid 0.4rem #9d954f;
+  font-size: 1.8rem;
+}
+
+.coin-button:hover {
+  cursor: pointer;
+}
+
+.coin-button:active {
+  border-bottom: none;
+  margin-top: 0.5rem;
+}
+
+#bill {
+  width: 35rem;
+  margin: 0.5rem;
+  font-size: 1.8rem;
+  color: #fff;
+  line-height: 3rem;
+}
