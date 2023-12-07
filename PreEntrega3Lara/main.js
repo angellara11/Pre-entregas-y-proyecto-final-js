@@ -33,7 +33,7 @@ payButton.addEventListener("click", function () {
   newBillElement.textContent = `La cuenta esta pagada, aqui esta tu recibo\n\nTotal:  ${total} Golden Coins\n\nGracias por su visita, le esperamos de nuevo muy pronto.`;
   bill.appendChild(newBillElement);
 
-  sessionStorage.setItem(new Date().toLocaleString(), JSON.stringify(total));
+  localStorage.setItem(new Date().toLocaleString(), JSON.stringify(total));
   total = 0;
   payButton.textContent = `Pay ${total} Golden Coins`;
   screenListDrink.innerHTML = "";
